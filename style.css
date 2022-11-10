@@ -378,6 +378,10 @@ header p {
 	justify-content: center;
 }
 
+.activites .card__img img {
+	width: 100%;
+}
+
 .activites .card__content {
 	position: absolute;
 	display: flex;
