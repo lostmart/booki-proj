@@ -18,7 +18,7 @@ body {
 
 .container {
 	margin: auto;
-	max-width: 1440px;
+	max-width: 1400px;
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 }
@@ -400,7 +400,7 @@ header p {
 }
 
 /*   TABLETTE      */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
 	.container {
 		padding-left: 2em;
 		padding-right: 2em;
@@ -412,7 +412,7 @@ header p {
 		flex-direction: column;
 	}
 	/*  hebergements */
-	.hebergements {
+	#hebergements {
 		width: 100%;
 		padding: 30px;
 	}
@@ -431,6 +431,7 @@ header p {
 	}
 	.hebergements .card {
 		max-height: 199px;
+		min-width: 225px;
 	}
 	.hebergements .card .card__img {
 		max-height: 62.315%;
@@ -481,7 +482,7 @@ header p {
 }
 
 /*    MOBILE      */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.container {
 		padding-left: 0;
 		padding-right: 0;
@@ -638,6 +639,7 @@ header p {
 		flex-direction: column;
 		align-items: center;
 		gap: 24px 0px;
+		padding-bottom: 60px;
 	}
 	.activites .card {
 		max-width: 100%;
