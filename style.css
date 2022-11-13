@@ -527,6 +527,9 @@ header p {
 		align-items: center;
 		justify-content: center;
 	}
+	.locationForm button {
+		border-radius: 15px 15px 15px 15px;
+	}
 	.locationForm .form-control {
 		min-width: calc(100% - 50px);
 	}
